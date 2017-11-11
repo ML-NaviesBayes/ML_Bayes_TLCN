@@ -5,7 +5,7 @@ include('model/document.php');
 include('model/handle.php');
 include('model/keyword.php');
 
-
+include('model/bayes.php');
 
 
 //goi ham 
@@ -13,25 +13,19 @@ include('model/keyword.php');
 // create_document();
 // insert_document();
 
-// // //xóa và tạo bảng keyword
-create_keywords();
+// //xóa và tạo bảng keyword
+// create_keywords();
 
-// //xóa và tạo bảng doc_key
- create_doc_key();
+// // //xóa và tạo bảng doc_key
+//  create_doc_key();
 
- insert_doc_key();
+//  insert_doc_key();
 
-insert_doc_key_frequency();
+// insert_doc_key_frequency();
 
 
 
-// if("thật"=="thất"){                   
-   
-//     echo "bang";
-// } else{
-//     echo "ko bang";
-// }
-
+ML_bayes();
 
 
 
