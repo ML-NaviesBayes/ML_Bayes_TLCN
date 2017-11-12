@@ -47,7 +47,7 @@
     function insert_doc_key(){
         GLOBAL $db;
         
-        $query = 'SELECT * FROM document ';      
+        $query = 'SELECT * FROM document  ';      
 
         $result = $db->Query($query);
         while($row = $result->fetch()) { 

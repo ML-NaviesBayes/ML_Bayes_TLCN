@@ -24,23 +24,13 @@ include('model/bayes.php');
 // insert_doc_key_frequency();
 
 
-
 ML_bayes();
-//$a=5;
 
+// $query_doc_key_test="SELECT Keyword FROM keywords ORDER BY `ID_key` ASC ";
+// $result_test2=$db->Query($query_doc_key_test);
 
-
-// $A=array();
-
-// for($i=0;$i<3;$i++){
-//     $A=array($a);
-//     $a+=$a;
+// while ($row=$result_test2->fetch()) {
+//  echo $row['Keyword']."<br>";
 // }
-
-
-// print_r($A);
-
-
-
 
 ?>

@@ -18,7 +18,7 @@
 
     function insert_document(){
         GLOBAL $db;	
-        $sql = "SELECT ID_Crawl, Comment_Crawl,Rate_Crawl FROM Crawl";
+        $sql = "SELECT ID_Crawl, Comment_Crawl,Rate_Crawl FROM Crawl ";
         $result = $db->Query($sql);
         
         while($row = $result->fetch()) { 
