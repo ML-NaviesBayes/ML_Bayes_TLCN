@@ -26,6 +26,20 @@ include('model/bayes.php');
 
 
 ML_bayes();
+//$a=5;
+
+
+
+// $A=array();
+
+// for($i=0;$i<3;$i++){
+//     $A=array($a);
+//     $a+=$a;
+// }
+
+
+// print_r($A);
+
 
 
 
